@@ -3,7 +3,7 @@ name: RF-CSGO
 version: 1.0.1
 main: id.rf.csgo.RFCsgo
 api-version: '1.21'
-author: Rizzone
+author: RF
 description: CS:GO Style Team PvP Plugin
 
 commands:
