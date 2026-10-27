@@ -236,3 +236,12 @@ public final class RFCsgo extends JavaPlugin implements Listener, CommandExecuto
         }
     }
 }
+
+if (c.equals("score")) {
+    msg(sender, "&6===== SKOR PERTANDINGAN =====");
+    msg(sender, "&c🔴 TIM MERAH: &f" + redScore);
+    msg(sender, "&9🔵 TIM BIRU: &f" + blueScore);
+    msg(sender, "&eRONDE KE: &f" + round);
+    msg(sender, "&6==============================");
+    return true;
+}
