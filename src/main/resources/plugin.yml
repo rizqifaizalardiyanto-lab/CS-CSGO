@@ -1,1 +1,39 @@
-
+name: RF-CSGO
+version: 1.0.0
+main: id.rf.csgo.RFCsgo
+api-version: '1.21'
+author: RF
+description: Team randomizer and best-of-three match manager.
+commands:
+  random:
+    description: Randomly split all online players into Red and Blue teams.
+    usage: /random
+    permission: rfcsg.admin
+  byone:
+    description: Start a 1v1 duel: /byone <player1> <player2>
+    usage: /byone <player1> <player2>
+    permission: rfcsg.admin
+  setspawn:
+    description: Set team or duel spawn.
+    usage: /setspawn <merah|biru|duel>
+    permission: rfcsg.admin
+  startmatch:
+    description: Start a best-of-three team match.
+    usage: /startmatch
+    permission: rfcsg.admin
+  stopmatch:
+    description: Stop the current match.
+    usage: /stopmatch
+    permission: rfcsg.admin
+  resetmatch:
+    description: Reset teams and match state.
+    usage: /resetmatch
+    permission: rfcsg.admin
+  score:
+    description: Show current match score.
+    usage: /score
+    permission: rfcsg.admin
+permissions:
+  rfcsg.admin:
+    description: Allows administration of RF-CSGO.
+    default: op
